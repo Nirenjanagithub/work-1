@@ -1,0 +1,7 @@
+x=int(input("a= "))
+y=int(input("b= "))
+l=int(input("c= "))
+z=range(x, y)
+for z in range(x, y):
+    if z % l==0:
+        print(z)
