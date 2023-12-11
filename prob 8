@@ -1,0 +1,6 @@
+x=int(input("a= "))
+y=int(input("b="))
+z=range(x, y)
+for z in range(x, y):
+    if z % 7==0:
+        print(z)
