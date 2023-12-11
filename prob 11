@@ -1,0 +1,7 @@
+x= int(input('a= '))
+y= int(input('b= '))
+z= (x%y)
+if z==0:
+    print('It is divisible by',y)
+else:
+    print(z,'is the remainder')
