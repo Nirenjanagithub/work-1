@@ -1,0 +1,2 @@
+number=range(1, 11)
+list(map(print,number))
