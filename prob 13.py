@@ -1,7 +1,7 @@
-def name(y ,arr):
-     for y in arr:
-         print('it exists')
-     print('no')
-
-y="nirenjanagithub"
-arr=['n']
+arr = ['x','y','z']
+letter = input("Enter :")
+for letter in arr:
+    if letter == arr:
+        print(letter)
+else:
+    print(False)
