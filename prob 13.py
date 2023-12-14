@@ -4,11 +4,15 @@ for i in arr:
      if letter == i:
          print(letter, " exists")
          break
-     else:
-          print(letter, "Do not exists")
+for j in arr:
+     if letter!= i:
+          print(letter, "Do  not exists")
           break
-
-        
-       
+          
+          
+          
+         
+   
+    
 
     
