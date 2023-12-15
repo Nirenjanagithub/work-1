@@ -89,19 +89,33 @@
 
 # print(reverse_string)
 
-number = str(input("Enter a number : "))
-length = len(number)
-armstrong_number =0
-convert_length = int(length)
-for i in number:
-    convert_number = int(i)
-    armstrong_number+=pow(convert_number, convert_length)
-    converted_armstrong = str(armstrong_number)
-if converted_armstrong== number:
-    print("It is an Armstrong number")
+# number = str(input("Enter a number : "))
+# length = len(number)
+# armstrong_number =0
+# convert_length = int(length)
+# for i in number:
+#     convert_number = int(i)
+#     armstrong_number+=pow(convert_number, convert_length)
+#     converted_armstrong = str(armstrong_number)
+# if converted_armstrong== number:
+#     print("It is an Armstrong number")
     
-else: 
-    print("It is NOT an Armstrong number")
+# else: 
+#     print("It is NOT an Armstrong number")
 
-
-   
+number_one = int(input("Enter a number: "))
+number_two = int(input("Enter another number: "))
+lst = range(number_one, number_two)
+even =""
+odd =""
+for i in lst:
+    if i%2==0:
+        x=str(i)
+        even = x + even
+        len_one=len(even)
+    elif i%2 != 0:
+        y=str(i)
+        odd = y + odd
+        len_two = len(odd)
+print(len_one, "is length of Even number")
+print(len_two, "length of Odd number" )
