@@ -1,0 +1,261 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family: "My Custom Font";
+    src: url("C:\Users\niren\Downloads\transfonter.org-20240110-105226 (1)") format("true type") ;
+}
+.body{
+    font-family: "My Custom Font" , Verdana,  Tahoma;
+    
+}
+.background{
+    background: rgb(237, 237, 237);
+    display: flex;
+    font-family: "My Custom Font" , Verdana,  Tahoma;
+    margin-right: 1px;
+    
+}
+.upper-bar{
+    height: 50px;
+    background:rgb(255, 255, 255);
+    
+    
+
+}
+.side-bar{
+    background:white;
+}
+.side-content-details{
+    display: flex;
+    margin-right: 20px;
+}
+.side-img-details{
+    margin-top: 20px;
+    height: 20px;
+    margin-left: 20px;
+
+}
+.side-text-details{
+    margin-top: 20px;
+    height: 15px;
+    color: rgb(147, 147, 158);
+    margin-left: 10px;
+    font-size: smaller;
+    
+    
+}
+.side-text-details:hover{
+    color: rgb(1, 1, 64);
+}
+
+.Navigation-panel{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: transparent;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.row-one{
+    display: flex;
+    background: transparent;
+    color: rgb(1, 1, 64);
+    font-size: small;
+
+}
+.arrow-details{
+    height: 20px;
+    margin-right: 10px;
+
+}
+.row-two{
+    margin-top: 15px;
+    background: white;
+    height: 40px;
+    padding-left: 80px;
+    padding-top: 10px;
+    color: rgb(147, 147, 158);
+    border-radius:7px;
+    font-size: smaller;
+}
+.row-three{
+    margin-top: 2px;
+    background: white;
+    height: 40px;
+    padding-left: 80px;
+    padding-top: 10px;
+    color: rgb(147, 147, 158);
+    font-size: smaller;
+
+}
+.row-four{
+    margin-top: 2px;
+    background: white;
+    height: 40px;
+    padding-left: 80px;
+    padding-top: 10px;
+    color: rgb(147, 147, 158);
+    font-size: smaller;
+
+    
+}
+.row-five{
+    margin-top: 2px;
+    background: white;
+    height: 40px;
+    padding-left: 80px;
+    padding-top: 10px;
+    color: red;
+    border-radius:7px;
+    font-size: smaller;
+
+}
+.row-six{
+    margin-top: 15px;
+    background: white;
+    margin-left: 250px;
+    border-radius: 7px;
+    height: 25px;
+    background: rgb(255, 205, 113);
+    font-size: x-small;
+    border: 1px solid rgb(255, 205, 113);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row-seven{
+    margin-top: 15px;
+    background: transparent;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: rgb(1, 1, 64);
+    font-size: small;
+
+}
+.row-eight{
+    margin-top: 19px;
+    background: white;
+    height: 40px;
+    padding-left: 80px;
+    padding-top: 10px;
+    color: rgb(147, 147, 158);
+    border-radius: 7px;
+    font-size: smaller;
+
+}
+.main-box{
+    margin-top: 63px;
+    margin-bottom:20px ;
+    margin-right: 10px;
+    background: white;
+    border-radius: 7px;
+    flex-grow: 1;
+    padding-left: 30px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.column-1{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    row-gap: 31px;
+
+
+
+}
+.box-one{
+    display: flex;
+    color: rgb(1, 1, 64);
+    font-size: small;
+    row-gap: 5px;
+    height: 44px;
+}
+.box-one h1{
+    font-size:medium;
+    display: flex;
+    padding-right: 5px;
+
+}
+.box-one button{
+    display: flex;
+    height: 20px;
+    
+}
+.box-two{
+    color: rgb(147, 147, 158);
+    font-size: x-small;
+    font-weight: lighter;
+
+}
+.box-three{
+    color: rgb(1, 1, 64);
+    font-size: x-small;
+    font-weight: lighter;
+    display: flex;
+}
+
+.column-2{
+    margin-top: 74px;
+    float: left;
+
+}
+.box-two-column-2{
+    color: rgb(147, 147, 158);
+    margin-bottom: 395px;
+    font-size: x-small;
+    font-weight: lighter;
+}
+.box-two-column-h5{
+    display: flex;
+    color: rgb(147, 147, 158);
+    font-size: x-small;
+    font-weight: lighter;
+    
+}
+
+.column-3{
+    display: flex;
+    margin-top: 74px;
+    flex-direction: column;
+    row-gap: 31px;
+    float: left;
+    
+}
+
+.box-two-column-3{
+    margin-top: 200px;
+    color: rgb(147, 147, 158);
+    font-size: x-small;
+    font-weight: lighter;
+    
+    flex-direction: column;
+}
+.column-4{
+    margin-top:74px ;
+}
+.box-two-column-4{
+    color: rgb(147, 147, 158);
+    margin-bottom: 394px;
+    font-size: x-small;
+    font-weight: lighter;
+}
+.bottom-row{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 145px;
+
+}
+.bottom-column{
+    color: rgb(147, 147, 158);
+    font-size:x-small;
+    font-weight: lighter;
+}
